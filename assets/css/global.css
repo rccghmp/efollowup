@@ -1,0 +1,437 @@
+body {
+    background-color: #f5f5f5 !important;
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}
+
+.my-gap {
+    margin: 25px 0px;
+    clear: both;
+}
+
+/*.my-gapper {
+    padding: 10px 0px;
+}*/
+.main_container {
+    color: #73879C !important;
+    background: #2A3F54 !important;
+}
+
+.medium-thick {
+    font-weight: 600;
+}
+
+.radius5 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.my-cube {
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    border: 1px outset #fff;
+    max-width: 240px;
+    margin: 10px 10px;
+}
+
+._my-cude li > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+._my-cude li div:first-child {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: #9FAFD1;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+._my-cude li div:last-child {
+    width: 90%;
+    max-width: 440px;
+    text-align: justify;
+}
+
+._my-cude li span {
+    display: block;
+    padding: 1px 0px;
+}
+
+._my-cude li span.time {
+    text-align: right;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+._my-cude li:hover {
+    cursor: pointer;
+    border: 1px solid #E6E9ED;
+}
+
+.radius10 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.center-me {
+    margin: 0 auto;
+    text-align: center;
+}
+
+i.bold-me {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.btn-custom {
+    background-color: #5A9BD5 !important;
+    border-color: #5A9BD5 !important;
+}
+
+.marging-up {
+    margin-top: 10px;
+}
+
+.sub-info {
+    font-size: 0.9em;
+    color: #878484;
+}
+
+.block-inner i {
+    margin-right: 10px;
+}
+
+.revealTextCount > span {
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+/* Header */
+#header {
+    background-color: #2A3F54;
+    padding: 15px 10px;
+    border-bottom: 4px solid #ffffff;
+    margin-bottom: 70px;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+#header .top-header {
+    padding-top: 10px;
+    border-bottom: 4px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.blank_header {
+    margin-bottom: 0px !important;
+    text-align: center;
+    padding: 2px 5px !important;
+}
+
+.nav_title {
+    border-bottom: 1px solid #D9DEE4;
+}
+
+.blank_header .icon {
+    width: 100px;
+    height: 50px;
+    background: url("../images/logo_3.png") no-repeat;
+    display: block;
+    background-size: 106px 44px;
+    background-position: 50% 0;
+}
+
+/* handles the logo */
+.site_title i.top-left-logo {
+    background: url("../images/logo_3.png") no-repeat;
+    height: 45px !important;
+    width: 45px !important;
+    background-size: 53px 59px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -4px -1px;
+}
+
+.site_title > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* this handles the login form */
+
+.login_form {
+    border: 1px solid #cecece;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 400px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.login_form form {
+    font-size: 1em;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login_form form a {
+    color: #8c8c8c;
+}
+
+.login_form form .login_logo i {
+    height: 50px;
+    background: url("../images/login_logo.png") no-repeat;
+    display: block;
+    background-size: 210px 50px;
+    background-position: 50% 0;
+}
+
+.login_form form > div {
+    display: block;
+    margin: 22px 0px;
+}
+
+.login_form form > div:last-child {
+    margin-bottom: 0px;
+}
+
+.login_form form > div > span {
+    display: block;
+    margin: 5px 0px;
+}
+
+.login_form form > div > span input {
+    padding: 18px 10px;
+}
+
+.login_form form .btn {
+    width: 100% !important;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.login_form .center-me .bold-me:hover {
+    text-decoration: underline;
+}
+
+/* handles the bottom part of the login form */
+.login_form .login_bottom {
+    margin-top: 25px;
+    border-top: 1px solid #B1AFAF;
+    padding: 10px 0px;
+    background-color: #cecece;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    line-height: 30px;
+}
+
+.login_bottom > div {
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.login_bottom button {
+    background-color: #DA7865 !important;
+    border: 1px solid #DA7865 !important;
+    width: 100%;
+    padding: 9px 0px;
+    font-weight: 500;
+}
+
+
+
+
+/* styles needed for pages */
+.page-title .title_left {
+    vertical-align: text-top;
+    width: 100% !important;
+}
+
+.page-title .title_left > i {
+    display: inline-block;
+    vertical-align: inherit;
+}
+
+.page-title .title_left > i.icon {
+    font-size: 2em;
+    margin-right: 9px;
+}
+
+.page-title .title_left > i h3 {
+    font-size: 1.4em;
+    font-style: normal;
+}
+
+.my-tabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.my-tabs .nav-tabs > li:hover {
+    cursor: pointer;
+    background-color: #EDEDED;
+}
+
+.my-page-title {
+    height: inherit !important;
+}
+
+#sendDeclaration .my-btns {
+    width: 97%;
+    margin-top: 30px;
+}
+#sendDeclaration textarea {
+    line-height: 25px;
+    padding: 6px 10px;
+}
+
+/* /styles needed for pages */
+
+
+
+
+/* memebrship registration form */
+.reg-form > div,
+.my-division > div {
+    margin: 5px 0px;
+}
+
+.reg-form > div > label,
+.my-division > div > label {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.reg-form > div > label > span.alert {
+    padding: inherit;
+    color: red;
+    font-size: 8px;
+}
+
+.reg-form > div > input[type=text],
+.reg-form > div > textarea,
+.reg-form > div > input[type=password],
+.reg-form > div > select,
+.my-division > div > input[type=text]{
+    width: 98%;
+    padding: 6px 5px;
+}
+
+.my-division .little-fade {
+    color: #9d9d9d;
+}
+
+.my-dob > span {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+.my-dob > span > select {
+    width: 90px;
+}
+
+.my-dob > span:first-child select {
+    width: 70px;
+}
+
+.btn-default.active, .btn-default:active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #E9A123;
+}
+
+.btn-primary.active:last-child {
+    color: #fff;
+    background-color: #E9A123;
+    border-color: #adadad;
+}
+
+.my-gender .btn-primary {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.my-btns {
+    text-align: right;
+}
+
+.my-btns .btn {
+   padding: 10px 30px;
+}
+
+/* /memebrship registration form */
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+    .login_form {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+    .login_form {
+        border: 1px solid #cecece;
+        margin: 0 auto;
+        margin-top: 10px;
+        max-width: 90%;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .login_form form {
+        padding: 0px 15px;
+    }
+
+    .login_form form .btn,
+    .login_bottom .btn {
+        font-weight: bolder !important;
+        font-size: 1.2em !important;
+    }
+
+    .login_bottom > div {
+        max-width: 250px;
+    }
+
+    .page-title .title_left {
+        width: 100% !important;
+        float: left;
+        display: block;
+    }
+
+    .my-btns .btn {
+        padding: 7px 11px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
